@@ -1,0 +1,111 @@
+.header{
+    height: 55px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    z-index: 300;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color:rgb(240, 235, 235);
+    
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+    
+}.toggler{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}.youtube-logo{
+    height: 20px;
+}
+.middle-section{
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+
+}.search-button{
+    height:39px;
+    width: 66px;
+    background-color: rgb(240, 240, 240);
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin-left: -1px;
+    margin-right: 10px;
+    
+}
+.search-icon{
+    height: 25px;
+    padding-top: 4px;
+}.voice-search-button{
+    height:39px;
+    width:40px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: rgb(245, 245, 245);
+
+
+}.voice-search-icon{
+    width:100%;
+    height:24px;
+    margin-top: 4px;
+    
+}
+.search-box{    
+    flex:1;
+    height:36px;
+    padding-left: 12px;
+    font-size:16px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px 0px 0px 20px;
+    border-color: gray;
+    width:0;
+    box-shadow: inset 1px 2px 5px
+    rgba(179, 179, 179, 0.05);
+}   
+.search-box::placeholder{
+    font-family: Roboto,Arial;
+    font-size: 16px;
+}.search-box:disabled{
+    background-color: rgb(255, 204, 0);
+}.search-box[type=text]:focus{
+    border-color: aqua ;
+    box-shadow: 2px inset 1px 2px 5px rgb(0, 94, 255)
+}    
+.right-section{
+    
+    width: 180px;
+    display: flex;
+    align-items:center;
+    margin-right: 20px;
+    flex-shrink: 0;
+    justify-content:space-between;
+    
+    /* padding-left: 300px; */
+    
+}.upload-icon{
+    height:30px ;
+
+}.notifications-icon{
+    height: 30px;
+}.profile-icon{
+    height:40px;
+    border-radius:20px;
+    
+}

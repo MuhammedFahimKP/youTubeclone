@@ -1,0 +1,38 @@
+.container{
+    display:grid;
+    grid-template-columns: 100px 5fr;
+    justify-content: center;
+    margin-top: 0;
+
+}
+.sidebar{
+    width:75px;
+
+}.bt{
+    width: 65px;
+    height: 80px;
+    text-align: center;
+    border-radius: 10px;
+    border-style: none;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    background-color:white;
+    transition:background-color,0.15s;
+
+
+}
+.sidebar-icon{
+    width:15px;
+    height:15pxpx;
+
+}    
+.sidebar-p{
+    font-size: 8px;
+}.bt:hover{
+    background-color: rgb(210, 207, 207);
+    cursor: pointer;
+
+}.in-sidebar{
+    width:100%;
+    padding-left:0px;
+}
